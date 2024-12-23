@@ -1,0 +1,15 @@
+@keyframes borderColorChange {
+    0% { border-color: rgb(255, 0, 0); } /* رنگ قرمز */
+    25% { border-color: rgb(0, 255, 0); } /* رنگ سبز */
+    50% { border-color: rgb(0, 0, 255); } /* رنگ آبی */
+    75% { border-color: rgb(255, 255, 0); } /* رنگ زرد */
+    100% { border-color: rgb(255, 0, 0); } /* رنگ قرمز */
+  }
+  
+  div {
+    width: 200px;
+    height: 200px;
+    border: 5px solid;
+    animation: borderColorChange 5s infinite;
+  }
+  
